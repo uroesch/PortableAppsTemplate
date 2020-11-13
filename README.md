@@ -1,5 +1,5 @@
 [![Build]({{ AppProjectUrl }}/workflows/build-package/badge.svg)]({{ AppProjectUrl }}/actions?query=workflow%3Abuild-package)
-[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/uroesch/PlinkProxyPortable?include_prereleases)]({{ AppProjectUrl }}/releases)
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/uroesch/{{ AppName }}?include_prereleases)]({{ AppProjectUrl }}/releases)
 [![Runs on](https://img.shields.io/badge/runs%20on-Win64%20%26%20Win32-blue)](#runtime-dependencies)
 ![GitHub All Releases](https://img.shields.io/github/downloads/{{ GitHubUser }}/{{ AppName }}/total)
 
