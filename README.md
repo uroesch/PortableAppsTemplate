@@ -3,7 +3,7 @@
 [![Runs on](https://img.shields.io/badge/runs%20on-Win64%20%26%20Win32-blue)](#runtime-dependencies)
 ![GitHub All Releases](https://img.shields.io/github/downloads/{{ GitHubUser }}/{{ AppName }}/total)
 
-# {{ AppNamedSpaced }} for PortableApps.com
+# {{ AppNameSpaced }} for PortableApps.com
 
 <img src="App/AppInfo/appicon_128.png" align=left>
 
