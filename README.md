@@ -40,6 +40,7 @@ This PortableApps project is in beta stage.
 ## Todo
 - [ ] Documentation
 
+<!-- Start include INSTALL.md -->
 ## Installation
 
 The Packages found under the release page are not digitally signed so there the installation
@@ -58,7 +59,9 @@ To unblock the installer and install the application follow the annotated screen
 2. Choose `Properties` at the bottom of the menu.
 3. Check the unblock box.
 
-<!-- Start include INSTALL.md -->
+<!-- End include INSTALL.md -->
+
+<!-- Start include BUILD.md -->
 ## Build
 
 ### Prerequisites
@@ -67,9 +70,7 @@ To unblock the installer and install the application follow the annotated screen
 * [PortableApps.com Installer](https://portableapps.com/apps/development/portableapps.com_installer)
 * [Powershell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7)
 * [Wine (Linux / MacOS only)](https://www.winehq.org/) or [Docker (Linux)](https://www.docker.com/)
-<!-- End include INSTALL.md -->
 
-<!-- Start include BUILD.md -->
 ### Build
 
 #### Windows 10
