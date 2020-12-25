@@ -58,6 +58,7 @@ To unblock the installer and install the application follow the annotated screen
 2. Choose `Properties` at the bottom of the menu.
 3. Check the unblock box.
 
+<!-- Start include INSTALL.md -->
 ## Build
 
 ### Prerequisites
@@ -66,7 +67,9 @@ To unblock the installer and install the application follow the annotated screen
 * [PortableApps.com Installer](https://portableapps.com/apps/development/portableapps.com_installer)
 * [Powershell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7)
 * [Wine (Linux / MacOS only)](https://www.winehq.org/) or [Docker (Linux)](https://www.docker.com/)
+<!-- End include INSTALL.md -->
 
+<!-- Start include BUILD.md -->
 ### Build
 
 #### Windows 10
@@ -93,6 +96,7 @@ For a Docker build run the following command.
 ```
 curl -sJL https://raw.githubusercontent.com/uroesch/PortableApps/master/scripts/docker-build.sh | bash
 ```
+<!-- End include BUILD.md -->
 
 [nd]: Other/Icons/no_data.svg
 [ns]: Other/Icons/no_support.svg
