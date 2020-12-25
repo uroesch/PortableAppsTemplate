@@ -3,13 +3,14 @@
 :ns: image:Other/Icons/no_support.svg[ns]
 :ps: image:Other/Icons/probably_supported.svg[ps]
 :fs: image:Other/Icons/full_support.svg[fs]
+:notitle:
 
 link:%7B%7B%20AppProjectUrl%20%7D%7D/actions?query=workflow%3Abuild-package[image:%7B%7B%20AppProjectUrl%20%7D%7D/workflows/build-package/badge.svg[Build]]
 link:%7B%7B%20AppProjectUrl%20%7D%7D/releases[image:https://img.shields.io/github/v/release/uroesch/%7B%7B%20AppName%20%7D%7D?include_prereleases[GitHub release (latest by date including pre-releases)]]
 link:#runtime-dependencies[image:https://img.shields.io/badge/runs%20on-Win64%20%26%20Win32-blue[Runs on]]
 image:https://img.shields.io/github/downloads/%7B%7B%20GitHubUser%20%7D%7D/%7B%7B%20AppName%20%7D%7D/total[GitHub All Releases]
 
-== {{ AppNameSpaced }} for PortableApps.com
+== {Title}
 
 link:%7B%7B%20UpstreamUrl%20%7D%7D[{{ UpstreamName }}] Lorem ipsum
 dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
