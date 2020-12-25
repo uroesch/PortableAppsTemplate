@@ -58,19 +58,9 @@ To unblock the installer and install the application follow the annotated screen
 1. Right click on the executable file.
 2. Choose `Properties` at the bottom of the menu.
 3. Check the unblock box.
-
 <!-- End include INSTALL.md -->
 
 <!-- Start include BUILD.md -->
-## Build
-
-### Prerequisites
-
-* [PortableApps.com Launcher](https://portableapps.com/apps/development/portableapps.com_launcher)
-* [PortableApps.com Installer](https://portableapps.com/apps/development/portableapps.com_installer)
-* [Powershell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7)
-* [Wine (Linux / MacOS only)](https://www.winehq.org/) or [Docker (Linux)](https://www.docker.com/)
-
 ### Build
 
 #### Windows 10
@@ -82,20 +72,23 @@ repository.
 powershell -ExecutionPolicy ByPass -File Other/Update/Update.ps1
 ```
 
-#### Linux (Wine)
-
-To build the installer under Linux with Wine and PowerShell installed run the
-command below.
-```
-pwsh Other/Update/Update.ps1
-```
-
 #### Linux (Docker)
+
+Note: This is currently the preferred way of building.
 
 For a Docker build run the following command.
 
 ```
 curl -sJL https://raw.githubusercontent.com/uroesch/PortableApps/master/scripts/docker-build.sh | bash
+```
+
+#### Linux (Wine)
+
+To build the installer under Linux with Wine and PowerShell installed run the
+command below.
+
+```
+pwsh Other/Update/Update.ps1
 ```
 <!-- End include BUILD.md -->
 
