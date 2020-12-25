@@ -1,0 +1,38 @@
+= Build
+
+== Prerequisites
+
+* https://portableapps.com/apps/development/portableapps.com_launcher[PortableApps.com Launcher] 
+* https://portableapps.com/apps/development/portableapps.com_installer[PortableApps.com Installer]
+* https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7[Powershell]
+* https://www.winehq.org/[Wine (Linux / MacOS only)] 
+  or https://www.docker.com/[Docker (Linux)]
+
+=== Windows 10
+
+To build the installer run the following command in the root of the git
+repository.
+
+[source,shell]
+----
+powershell -ExecutionPolicy ByPass -File Other/Update/Update.ps1
+----
+
+=== Linux (Docker)
+
+For a Docker build run the following command.
+
+[source,shell]
+----
+curl -sJL https://raw.githubusercontent.com/uroesch/PortableApps/master/scripts/docker-build.sh | bash
+----
+
+=== Linux (Wine)
+
+To build the installer under Linux with Wine and PowerShell installed
+run the command below.
+
+[source,shell]
+----
+pwsh Other/Update/Update.ps1
+----
