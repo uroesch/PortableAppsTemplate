@@ -1,14 +1,13 @@
 # -----------------------------------------------------------------------------
 # Automerge pull requests for PortableApps
 # Author: Urs Roesch https://github.com/uroesch
-# Version: 0.2.0
+# Version: 0.1.0 
 # -----------------------------------------------------------------------------
 name: automerge
 on:
   pull_request:
     branches:
       - master
-      - main
   check_suite:
     types:
       - completed
@@ -27,3 +26,4 @@ jobs:
           MERGE_DELETE_BRANCH: true
           MERGE_LABELS: ""
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+
