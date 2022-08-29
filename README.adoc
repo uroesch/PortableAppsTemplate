@@ -7,7 +7,7 @@
 :upstream-name: {{ UpstreamName }}
 :upstream-url: {{ UpstreamUrl }}
 :shields-url: https://img.shields.io/github/v/release/uroesch/{app-name}
-:icons: images
+:icons: font
 :imagesdir: Other/Images
 :no-data: image:../Icons/no_data.svg[]
 :no-support: image:../Icons/no_support.svg[]
@@ -43,7 +43,7 @@ image:https://img.shields.io/github/downloads/{github-user}/{app-name}/total[
   link="https://img.shields.io/github/downloads/{github-user}/{app-name}/total"
 ]
 
-image:../../App/AppInfo/appicon_128.png[align="left"]
+image:../../App/AppInfo/appicon_128.png[float="left"]
 
 link:{upstream-url}[{upstream-name}] Lorem ipsum dolor sit amet, consetetur
 sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
