@@ -43,15 +43,15 @@ image:https://img.shields.io/github/downloads/{github-user}/{app-name}/total[
   link="https://img.shields.io/github/downloads/{github-user}/{app-name}/total"
 ]
 
-ifndef::env-github[]
+ifndef::env-github,env-gitlab[]
 image:../../App/AppInfo/appicon_128.png[float="left"]
-endif::env-github[]
+endif::env-github,env-gitlab[]
 
-ifdef::env-github[]
+ifdef::env-github,env-gitlab[]
 +++
 <img src="App/AppInfo/appicon_128.png" align="left">
 +++
-endif::env-github[]
+endif::env-github,env-gitlab[]
 
 link:{upstream-url}[{upstream-name}] Lorem ipsum dolor sit amet, consetetur
 sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
