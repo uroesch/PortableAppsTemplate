@@ -1,4 +1,4 @@
-= {app-name-spaced} for PortableApps.com
+= {upstream-name} for PortableApps.com
 :author: Urs Roesch
 :app-name-spaced: {{ AppNameSpaced }}
 :app-name: {{ AppName }}
