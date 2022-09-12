@@ -158,8 +158,8 @@ have not been tested.
 
 [source,console,subs=attributes]
 ----
-git clone https://github.com/uroesch/PortableApps.comInstaller.git
-git clone -b patched https://github.com/uroesch/PortableApps.comLauncher.git
+git clone {git-base-url}/PortableApps.comInstaller.git
+git clone -b patched {git-base-url}/PortableApps.comLauncher.git
 git clone {git-base-url}/{app-name}.git
 ----
 
@@ -223,8 +223,8 @@ Xvfb ${DISPLAY} -ac &
 
 [source,console,subs=attributes]
 ----
-git clone https://github.com/uroesch/PortableApps.comInstaller.git
-git clone -b patched https://github.com/uroesch/PortableApps.comLauncher.git
+git clone {git-base-url}/PortableApps.comInstaller.git
+git clone -b patched {git-base-url}/PortableApps.comLauncher.git
 git clone {git-base-url}/{app-name}.git
 ----
 
@@ -265,8 +265,8 @@ Xvfb ${DISPLAY} -ac &
 
 [source,console,subs=attributes]
 ----
-git clone https://github.com/uroesch/PortableApps.comInstaller.git
-git clone -b patched https://github.com/uroesch/PortableApps.comLauncher.git
+git clone {git-base-url}/PortableApps.comInstaller.git
+git clone -b patched {git-base-url}/PortableApps.comLauncher.git
 git clone {git-base-url}/{app-name}.git
 ----
 
