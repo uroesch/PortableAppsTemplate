@@ -3,10 +3,10 @@
 :app-name-spaced: {{ AppNameSpaced }}
 :app-name: {{ AppName }}
 :app-project-url: {{ AppProjectUrl }}
-:github-user: {{ GitHubUser }}
+:git-user: {{ GitHubUser }}
 :upstream-name: {{ UpstreamName }}
 :upstream-url: {{ UpstreamUrl }}
-:shields-url: https://img.shields.io/github/v/release/uroesch/{app-name}
+:shields-url: https://img.shields.io/github/v/release/{git-user}/{app-name}
 :icons: font
 :imagesdir: Other/Images
 :no-data: image:../Icons/no_data.svg[]
@@ -14,13 +14,17 @@
 :not-applicable: image:../Icons/not_applicable.svg[]
 :probably-supported: image:../Icons/probably_supported.svg[]
 :full-support: image:../Icons/full_support.svg[]
+ifdef::env-gitlab[]
+:git-base-url: https://gitlab.com/{git-user}
+endif::env-gitlab[]
 ifdef::env-github[]
+:git-base-url: https://github.com/{git-user}
 :tip-caption: :bulb:
 :note-caption: :information_source:
 :important-caption: :heavy_exclamation_mark:
 :caution-caption: :fire:
 :warning-caption: :warning:
-endif::[]
+endif::env-github[]
 
 image:{app-project-url}/workflows/build-linux/badge.svg[
   title="Linux Build",
@@ -38,9 +42,9 @@ image:https://img.shields.io/badge/runs%20on-Win64%20%26%20Win32-blue[
   title="Runs on",
   link="#_runtime_dependencies"
 ]
-image:https://img.shields.io/github/downloads/{github-user}/{app-name}/total[
+image:https://img.shields.io/github/downloads/{gi-user}/{app-name}/total[
   title="GitHub All Releases",
-  link="https://img.shields.io/github/downloads/{github-user}/{app-name}/total"
+  link="https://img.shields.io/github/downloads/{gi-user}/{app-name}/total"
 ]
 
 ifndef::env-github,env-gitlab[]
@@ -156,7 +160,7 @@ have not been tested.
 ----
 git clone https://github.com/uroesch/PortableApps.comInstaller.git
 git clone -b patched https://github.com/uroesch/PortableApps.comLauncher.git
-git clone https://github.com/uroesch/{app-name}.git
+git clone {git-base-url}/{app-name}.git
 ----
 
 ====== Build installer
@@ -180,7 +184,7 @@ For a Docker build run the following command.
 
 [source,console,subs=attributes]
 ----
-git clone https://github.com/uroesch/{app-name}.git
+git clone {git-base-url}/{app-name}.git
 ----
 
 ====== Build installer
@@ -221,7 +225,7 @@ Xvfb ${DISPLAY} -ac &
 ----
 git clone https://github.com/uroesch/PortableApps.comInstaller.git
 git clone -b patched https://github.com/uroesch/PortableApps.comLauncher.git
-git clone https://github.com/uroesch/{app-name}.git
+git clone {git-base-url}/{app-name}.git
 ----
 
 ====== Build installer
@@ -263,7 +267,7 @@ Xvfb ${DISPLAY} -ac &
 ----
 git clone https://github.com/uroesch/PortableApps.comInstaller.git
 git clone -b patched https://github.com/uroesch/PortableApps.comLauncher.git
-git clone https://github.com/uroesch/{app-name}.git
+git clone {git-base-url}/{app-name}.git
 ----
 
 ====== Build installer
