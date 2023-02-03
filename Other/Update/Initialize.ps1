@@ -17,6 +17,7 @@ $Files        = @(
   (Join-Path $AppRoot LICENSE)
   $AppInfoIni
   $UpdateIni
+  (Join-Path $AppRoot .gitignore)
 )
 
 $Placeholders = @{
